@@ -19,6 +19,7 @@ on:
       environment:
         description: 'Environment to run tests against'
         type: environment
+        default: 'Staging'
         required: true
 jobs:
   Explore-GitHub-Actions:
